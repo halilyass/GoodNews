@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		3F332A682A5D86C600605254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332A672A5D86C600605254 /* AppDelegate.swift */; };
 		3F332A6A2A5D86C600605254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332A692A5D86C600605254 /* SceneDelegate.swift */; };
-		3F332A6C2A5D86C600605254 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332A6B2A5D86C600605254 /* ViewController.swift */; };
-		3F332A6F2A5D86C600605254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F332A6D2A5D86C600605254 /* Main.storyboard */; };
 		3F332A712A5D86C800605254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F332A702A5D86C800605254 /* Assets.xcassets */; };
 		3F332A742A5D86C800605254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F332A722A5D86C800605254 /* LaunchScreen.storyboard */; };
+		3FD7C40F2A67D95F0065D896 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7C40E2A67D95F0065D896 /* HomeController.swift */; };
+		3FD7C4112A67DA570065D896 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7C4102A67DA570065D896 /* NewsManager.swift */; };
+		3FD7C4132A67DB7C0065D896 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7C4122A67DB7C0065D896 /* NewsViewModel.swift */; };
+		3FD7C4152A67DB980065D896 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7C4142A67DB980065D896 /* NewsModel.swift */; };
+		3FD7C4182A6807420065D896 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7C4172A6807420065D896 /* TypeAlias.swift */; };
+		3FDADD272A691E44000DBCC1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDADD262A691E44000DBCC1 /* HomeCell.swift */; };
+		3FDADD2A2A692042000DBCC1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3FDADD292A692042000DBCC1 /* SnapKit */; };
+		3FDADD2C2A6950E1000DBCC1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDADD2B2A6950E1000DBCC1 /* WebViewController.swift */; };
+		74FA04D1CFE25BB55494D0E2 /* Pods_GoodNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C1B725FF6B2C722E119B8D /* Pods_GoodNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F332A642A5D86C600605254 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F332A672A5D86C600605254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F332A692A5D86C600605254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F332A6B2A5D86C600605254 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F332A6E2A5D86C600605254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F332A702A5D86C800605254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F332A732A5D86C800605254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F332A752A5D86C800605254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD7C40E2A67D95F0065D896 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3FD7C4102A67DA570065D896 /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		3FD7C4122A67DB7C0065D896 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		3FD7C4142A67DB980065D896 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		3FD7C4172A6807420065D896 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		3FDADD262A691E44000DBCC1 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		3FDADD2B2A6950E1000DBCC1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		52C1B725FF6B2C722E119B8D /* Pods_GoodNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA84BF91185619752D91E7BB /* Pods-GoodNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodNews.release.xcconfig"; path = "Target Support Files/Pods-GoodNews/Pods-GoodNews.release.xcconfig"; sourceTree = "<group>"; };
+		D04FAC7BB769917B32837E7B /* Pods-GoodNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodNews.debug.xcconfig"; path = "Target Support Files/Pods-GoodNews/Pods-GoodNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDADD2A2A692042000DBCC1 /* SnapKit in Frameworks */,
+				74FA04D1CFE25BB55494D0E2 /* Pods_GoodNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CB65AA0F0DF3E04AF611472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D04FAC7BB769917B32837E7B /* Pods-GoodNews.debug.xcconfig */,
+				AA84BF91185619752D91E7BB /* Pods-GoodNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3F332A5B2A5D86C600605254 = {
 			isa = PBXGroup;
 			children = (
 				3F332A662A5D86C600605254 /* GoodNews */,
 				3F332A652A5D86C600605254 /* Products */,
+				0CB65AA0F0DF3E04AF611472 /* Pods */,
+				9DF70A2CCEFB5AB5FD379343 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,76 @@
 		3F332A662A5D86C600605254 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				3FD7C4162A6807360065D896 /* Untils */,
+				3F332A7E2A5D8AEB00605254 /* Services */,
+				3F332A892A5D953900605254 /* Views */,
+				3F332A862A5D926600605254 /* ViewModel */,
+				3F332A832A5D8CD000605254 /* Model */,
+				3F332A7B2A5D86F000605254 /* Controller */,
 				3F332A672A5D86C600605254 /* AppDelegate.swift */,
 				3F332A692A5D86C600605254 /* SceneDelegate.swift */,
-				3F332A6B2A5D86C600605254 /* ViewController.swift */,
-				3F332A6D2A5D86C600605254 /* Main.storyboard */,
 				3F332A702A5D86C800605254 /* Assets.xcassets */,
 				3F332A722A5D86C800605254 /* LaunchScreen.storyboard */,
 				3F332A752A5D86C800605254 /* Info.plist */,
 			);
 			path = GoodNews;
+			sourceTree = "<group>";
+		};
+		3F332A7B2A5D86F000605254 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7C40E2A67D95F0065D896 /* HomeController.swift */,
+				3FDADD2B2A6950E1000DBCC1 /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F332A7E2A5D8AEB00605254 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7C4102A67DA570065D896 /* NewsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F332A832A5D8CD000605254 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7C4142A67DB980065D896 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F332A862A5D926600605254 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7C4122A67DB7C0065D896 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F332A892A5D953900605254 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FDADD262A691E44000DBCC1 /* HomeCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FD7C4162A6807360065D896 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7C4172A6807420065D896 /* TypeAlias.swift */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		9DF70A2CCEFB5AB5FD379343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C1B725FF6B2C722E119B8D /* Pods_GoodNews.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +163,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F332A782A5D86C800605254 /* Build configuration list for PBXNativeTarget "GoodNews" */;
 			buildPhases = (
+				7E33C446D6C4ECC19C422973 /* [CP] Check Pods Manifest.lock */,
 				3F332A602A5D86C600605254 /* Sources */,
 				3F332A612A5D86C600605254 /* Frameworks */,
 				3F332A622A5D86C600605254 /* Resources */,
+				78704E59BE23C8B632346E1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GoodNews;
+			packageProductDependencies = (
+				3FDADD292A692042000DBCC1 /* SnapKit */,
+			);
 			productName = GoodNews;
 			productReference = 3F332A642A5D86C600605254 /* GoodNews.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +205,9 @@
 				Base,
 			);
 			mainGroup = 3F332A5B2A5D86C600605254;
+			packageReferences = (
+				3FDADD282A692042000DBCC1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3F332A652A5D86C600605254 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +224,73 @@
 			files = (
 				3F332A742A5D86C800605254 /* LaunchScreen.storyboard in Resources */,
 				3F332A712A5D86C800605254 /* Assets.xcassets in Resources */,
-				3F332A6F2A5D86C600605254 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78704E59BE23C8B632346E1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodNews/Pods-GoodNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodNews/Pods-GoodNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodNews/Pods-GoodNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E33C446D6C4ECC19C422973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F332A602A5D86C600605254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F332A6C2A5D86C600605254 /* ViewController.swift in Sources */,
+				3FD7C4152A67DB980065D896 /* NewsModel.swift in Sources */,
+				3FDADD2C2A6950E1000DBCC1 /* WebViewController.swift in Sources */,
+				3FD7C4112A67DA570065D896 /* NewsManager.swift in Sources */,
+				3FDADD272A691E44000DBCC1 /* HomeCell.swift in Sources */,
+				3FD7C4182A6807420065D896 /* TypeAlias.swift in Sources */,
 				3F332A682A5D86C600605254 /* AppDelegate.swift in Sources */,
+				3FD7C4132A67DB7C0065D896 /* NewsViewModel.swift in Sources */,
 				3F332A6A2A5D86C600605254 /* SceneDelegate.swift in Sources */,
+				3FD7C40F2A67D95F0065D896 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F332A6D2A5D86C600605254 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F332A6E2A5D86C600605254 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F332A722A5D86C800605254 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +418,7 @@
 		};
 		3F332A792A5D86C800605254 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04FAC7BB769917B32837E7B /* Pods-GoodNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +429,7 @@
 				INFOPLIST_FILE = GoodNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +447,7 @@
 		};
 		3F332A7A2A5D86C800605254 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA84BF91185619752D91E7BB /* Pods-GoodNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +458,7 @@
 				INFOPLIST_FILE = GoodNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +496,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FDADD282A692042000DBCC1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FDADD292A692042000DBCC1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FDADD282A692042000DBCC1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F332A5C2A5D86C600605254 /* Project object */;
 }
