@@ -19,6 +19,12 @@ class HomeController : UIViewController {
         return tableView
     }()
     
+    private let indicator : UIActivityIndicatorView = {
+        let indicator = UIActivityIndicatorView(style: .large)
+        indicator.color = .black
+        return indicator
+    }()
+    
     private var viewModel : NewsListViewModel!
     
     //MARK: - LifeCycle
@@ -31,6 +37,7 @@ class HomeController : UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: nil)
         navigationController?.navigationBar.tintColor = .black
         setup()
+        indicator.startAnimating()
     }
     
     //MARK: - Actions
@@ -46,6 +53,7 @@ class HomeController : UIViewController {
         configureTableView()
         getData()
         configureRefresh()
+        indicatorUI()
     }
     
     private func configureTableView() {
@@ -62,6 +70,14 @@ class HomeController : UIViewController {
         tableView.refreshControl = refreshControl
     }
     
+    private func indicatorUI() {
+        view.addSubview(indicator)
+        indicator.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview()
+        }
+    }
+    
     //MARK: - GetData
     
     func getData() {
@@ -73,6 +89,7 @@ class HomeController : UIViewController {
                 
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
+                    self.indicator.stopAnimating()
                 }
             }
         }

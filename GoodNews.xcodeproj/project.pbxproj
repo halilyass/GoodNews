@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0D73C82A78FADC0071F74F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D73C72A78FADC0071F74F /* Constant.swift */; };
 		3F332A682A5D86C600605254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332A672A5D86C600605254 /* AppDelegate.swift */; };
 		3F332A6A2A5D86C600605254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F332A692A5D86C600605254 /* SceneDelegate.swift */; };
 		3F332A712A5D86C800605254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F332A702A5D86C800605254 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0D73C72A78FADC0071F74F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3F332A642A5D86C600605254 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F332A672A5D86C600605254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F332A692A5D86C600605254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3F0D73C62A78FAD00071F74F /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D73C72A78FADC0071F74F /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		3F332A5B2A5D86C600605254 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		3F332A662A5D86C600605254 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				3F0D73C62A78FAD00071F74F /* Constant */,
 				3FD7C4162A6807360065D896 /* Untils */,
 				3F332A7E2A5D8AEB00605254 /* Services */,
 				3F332A892A5D953900605254 /* Views */,
@@ -283,6 +294,7 @@
 				3FD7C4182A6807420065D896 /* TypeAlias.swift in Sources */,
 				3F332A682A5D86C600605254 /* AppDelegate.swift in Sources */,
 				3FD7C4132A67DB7C0065D896 /* NewsViewModel.swift in Sources */,
+				3F0D73C82A78FADC0071F74F /* Constant.swift in Sources */,
 				3F332A6A2A5D86C600605254 /* SceneDelegate.swift in Sources */,
 				3FD7C40F2A67D95F0065D896 /* HomeController.swift in Sources */,
 			);
